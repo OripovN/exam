@@ -74,7 +74,7 @@
 //     height: 32px;
 // }
 
-@media only screen and (max-width:1360px) {
+@media screen and (max-width: 1360px) {
   .hero__title {
     max-width: 445px;
     width: 100%;
@@ -82,11 +82,10 @@
     letter-spacing: -2.05;
     margin-bottom: 6rem;
   }
-  .hero__poragrph {
+  .hero__text {
     margin-bottom: 3.4rem;
   }
   .hero__right__bg {
-
     right: 0;
   }
   .hero__oval__shape {
@@ -99,7 +98,7 @@
     background-position: left -265px top 86px;
   }
 }
-@media only screen and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   .hero-post {
     width: 100%;
     display: flex;

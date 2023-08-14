@@ -1,26 +1,26 @@
 main {
   flex-grow: 1;
 }
-.skills {
+.info {
   background-image: url(../images/svg/oval-big-bg.svg);
   background-repeat: no-repeat;
   background-position: right -239px bottom;
 }
-.skills-container {
+.info-container {
   margin-bottom: 14rem;
 }
-.skills-gradient {
+.info-gradient {
   border: 0;
   background-color: $white-color;
   width: 100%;
   height: 1px;
   margin-bottom: 7.2rem;
 }
-.skills-list {
+.info-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
 }
-.skills-item {
+.info-item {
   margin-bottom: 5rem;
 }
 .projects {
@@ -130,7 +130,7 @@ main {
       url(../images/png/Bitmap-5.png);
   }
 }
-@media only screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .projects-card-links {
     visibility: visible;
     opacity: 1;
@@ -142,14 +142,14 @@ main {
     }
   }
 }
-@media only screen and (max-width: 1210px) {
+@media screen and (max-width: 1210px) {
   li {
     margin-right: auto;
     margin-left: auto;
   }
 }
 
-@media only screen and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .skills {
     background-image: url(../images/svg/oval-big-bg.svg);
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ main {
     opacity: 0;
   }
 }
-@media only screen and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   .skills-list {
     text-align: center;
   }
@@ -170,7 +170,7 @@ main {
     background-position: right -400px bottom;
   }
 }
-@media only screen and (max-width: 570px) {
+@media screen and (max-width: 570px) {
   .projects {
     h1 {
       font-size: 4rem;
@@ -179,7 +179,8 @@ main {
   .projects-list {
     display: block;
   }
-  .projects-card-bg, .projects-card  {
+  .projects-card-bg,
+  .projects-card {
     max-width: 570px;
     width: 100%;
   }

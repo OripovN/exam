@@ -66,7 +66,7 @@
   height: 1px;
   margin-bottom: 4.7rem;
 }
-@media only screen and (max-width: 988px) {
+@media screen and (max-width: 988px) {
   .footer {
     width: 100%;
   }
@@ -98,12 +98,12 @@
   }
 }
 
-@media only screen and (max-width: 610px) {
+@media screen and (max-width: 610px) {
   .footer {
     min-width: 445px;
-  h1 {
-    font-size: 4rem;
-  }
+    h1 {
+      font-size: 4rem;
+    }
   }
   .footer-bottom-content {
     .footer__logo-link {
